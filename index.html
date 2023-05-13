@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+
+<body>
+    <header>
+        <div class="container flex">
+            <div class="flex">
+                <h1>Dojonary</h1>
+                <div class="flex line">
+                    <input type="text" placeholder="search">
+                    <button class="login" onclick="logout(this)">login</button>
+                </div>
+                </h1>
+            </div>
+        </div>
+    </header>
+    <div class="container flex">
+        <main>
+            <div class="first-box flex-box">
+                <div class="ninja">
+                    <h1>ninja</h1>
+                    <h4>noun</h4>
+                    <p>plural </p>
+                    <button class="like" onclick="likes(this)">13 likes</button>
+                </div>
+                <div class="meaning">
+                    A practictioner skilled in 
+                    <div>the <span>Japanese</span> art of <span>ninjitsu</span></div>
+                </div>
+            </div>
+            <div class="second-box flex-box">
+                <div class="ninja">
+                    <h1>ninja</h1>
+                    <h4>noun</h4>
+                    <p>plural </p>
+                    <button class="like" onclick="likes(this)">37 likes</button>
+                </div>
+                <div class="meaning">
+                    A programmer who breaks down 
+                    <div>the problems with <span>zen</span>-like focus</div>
+                </div>
+            </div>
+        </main>
+        <aside>
+            <div class="box-three">
+                <h3>Dojonary is defined by YOU</h3>
+                <div class="center">
+                    <button class="define" onclick="blank(this)">Add Definition</button>
+                </div>
+            </div>
+        </aside>
+    </div>
+</body>
+
+</html>
